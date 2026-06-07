@@ -3,14 +3,23 @@ boto3==1.34.100
 awswrangler==3.7.3    
 python-dotenv==1.0.1  
 
-# --- Análisis de Datos---
+# --- Procesamiento y Análisis de Datos ---
 pandas==2.2.2         
-matplotlib==3.8.4     
-seaborn==0.13.2  
+numpy>=1.26.0
+scikit-learn>=1.4.0   
+joblib>=1.3.2
+holidays>=0.40.0
+
+# --- Modelado Automático ---
 xgboost>=2.0.0     
 
-# --- Entorno Jupyter---
+# --- Visualización ---
+matplotlib==3.8.4     
+seaborn==0.13.2  
+
+# --- Despliegue (App Web) ---
+gradio>=4.20.0
+
+# --- Entorno Jupyter ---
 jupyter==1.0.0
 ipykernel==6.29.4
-
-holidays>=0.40.0
