@@ -1,10 +1,10 @@
-2.1. Requisitos Previos 
+- Requisitos Previos 
 
 Entorno: Configurar un entorno virtual de Python e instalar las librerías especificadas en el archivo requirements.txt 
 
 Credenciales: Disponer de un archivo .env en la raíz del proyecto con las claves de acceso a AWS necesarias para la ingesta y el procesamiento en la nube. El proyecto incluye una plantilla con los datos necesarios a rellenar llamado  .env.plantilla
 
-2.2. Secuencia de Trabajo 
+- Secuencia de Trabajo 
 
 Orquestación del Data Lake y ETL (pipeline_aws.py):
 Este script centralizado ejecuta el flujo completo en la nube:
